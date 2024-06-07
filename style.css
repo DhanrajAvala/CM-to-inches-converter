@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/goluboj-fon-niti.jpg);
+}
+
+.converter{
+    border: 1px solid black;
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.heading h3{
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 800;
+    color: white;
+}
+
+.type{
+    padding-top: 20px;
+    
+}
+
+.type input{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: 800;
+}
+
+#result{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    margin-bottom: 30px;
+}

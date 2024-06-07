@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM to Inches Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="converter">
+        <div class="heading">
+            <h3>CM to Inches</h3>
+        </div>
+
+        <div class="type">
+            <input type="text" id="input" placeholder="Length in centimeters">
+        </div>
+
+
+        <button type="submit" onclick="convert()">Convert into inches</button>
+
+        <div id="result">
+
+        </div>
+    </div>
+
+
+    <script>
+        function convert() {
+
+        //   Number hai wo ---- input me jo value user dalega wo number me convert karega 
+            let uservalue = Number(document.getElementById("input").value)
+            let inchvalue = uservalue / 2.54
+            let result = document.getElementById("result")
+            result.innerHTML = inchvalue
+        }
+
+    </script>
+</body>
+
+</html>
